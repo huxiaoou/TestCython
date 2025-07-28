@@ -46,3 +46,13 @@ dvd(2,3) = 0.6666666666666666
 ----------------------------dvd-----------------------------
 dvd(2,0) = nan
 ```
+
+# About **setup_no_pkg.py**
+
+This a simple version of the jobs above. The output would have no package structures and contains vanilla `*.so` files in the following directory only.
+
+```bash
+    build/lib.linux-x86_64-3.9
+```
+
+for simple `*.py` files, users may want to try this.
