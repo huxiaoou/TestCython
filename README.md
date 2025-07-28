@@ -18,10 +18,11 @@ This project shows how authors of py-project could use tools like `setuptools`,`
     ./run_build.sh
 ```
 
-After this step, the following two files should be saved in the directory `tests`.
+After this step, the following 3 files should be saved in the directory `tests`.
 
 ```bash
     alg.cpython-39-x86_64-linux-gnu.so
+    alg2.cpython-39-x86_64-linux-gnu.so
     utl.cpython-39-x86_64-linux-gnu.so
 ```
 
