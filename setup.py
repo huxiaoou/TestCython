@@ -11,11 +11,21 @@ extensions = [
         sources=["src/package_huxo/alg2.py"],
     ),
     Extension(
+        "package_huxo.alg3",
+        sources=["src/package_huxo/alg3.py"],
+    ),
+    Extension(
         "package_sxzq.utl",
         sources=["src/package_sxzq/utl.py"],
     ),
 ]
-ext_modules = cythonize(extensions, compiler_directives={"language_level": "3"})
+ext_modules = cythonize(
+    extensions,
+    compiler_directives={
+        "language_level": "3",
+        "annotation_typing": False,
+    },
+)
 
 setup(
     name="MyCompiledModule",

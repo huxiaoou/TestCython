@@ -5,6 +5,7 @@ ext_modules = cythonize(
     [
         "src/package_huxo/alg.py",
         "src/package_huxo/alg2.py",
+        "src/package_huxo/alg3.py",
         "src/package_sxzq/utl.py",
     ]
 )

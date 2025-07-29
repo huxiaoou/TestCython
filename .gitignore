@@ -1,4 +1,4 @@
 .vscode
 build
 tests/*.so
-
+tests/__pycache__
